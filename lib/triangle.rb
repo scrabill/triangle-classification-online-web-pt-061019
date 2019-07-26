@@ -27,6 +27,13 @@ class Triangle
   end
 
   def errorHandling
+
+    # Single responsibility principle / separations of concerns
+    # Methods should only have one job
+    if @a <= 0 || @b <= 0 || @c <= 0
+      raise TriangleError
+    # elsif @a < 0 || @b < 0 || @c < 0
+    #   raise TriangleError
   end
 
   class TriangleError < StandardError
