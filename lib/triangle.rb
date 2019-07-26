@@ -31,6 +31,7 @@ class Triangle
     # Methods should only have one job
     if @a <= 0 || @b <= 0 || @c <= 0
       raise TriangleError
+    en
     # elsif @a < 0 || @b < 0 || @c < 0
     #   raise TriangleError
   end
