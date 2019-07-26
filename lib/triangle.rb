@@ -26,6 +26,9 @@ class Triangle
     end
   end
 
+  def errorHandling
+  end
+
   class TriangleError < StandardError
     # triangle error code
   end
