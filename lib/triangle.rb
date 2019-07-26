@@ -8,6 +8,7 @@ class Triangle
   end
 
   def kind
+    # Single responsibility principle / separations of concerns
     if @a <= 0 || @b <= 0 || @c <= 0
       raise TriangleError
     # elsif @a < 0 || @b < 0 || @c < 0
