@@ -9,6 +9,7 @@ class Triangle
 
   def kind
     errorHandling
+    
     if @a == @b && @b == @c && @a == @c
       :equilateral
     elsif @a == @b || @a == @c || @b == @c
